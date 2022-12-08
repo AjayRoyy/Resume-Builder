@@ -1,0 +1,15 @@
+.App
+{
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    scroll-behavior: smooth;
+}
+@media screen and (max-width:1200px) {
+
+    .App{
+        display: grid;
+        overflow: hidden;
+        grid-template-columns: 100vw ;
+    }
+    
+}

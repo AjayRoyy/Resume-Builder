@@ -1,0 +1,14 @@
+@import "./fonts";
+
+.main
+{
+    // width: 50vw;
+    height: 100vh;
+    font-family: opensan;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar
+    {
+        background-color: none;
+    }
+}

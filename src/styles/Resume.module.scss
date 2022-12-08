@@ -1,0 +1,44 @@
+@import "./variables";
+
+.main
+{
+    // width: 50vw;
+    height: 100vh;
+    background-color: #9ADCFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    max-height: 100%;
+    object-fit: cover;
+
+    .resume
+    {
+        width: max(60vmin,400px);
+        box-shadow: 0px 1px 5px grey;
+        height: 100%;
+        border-radius: 5px;
+        background-color: white;
+        padding-left: 1rem;
+    }
+}
+
+.imagediv
+{
+    padding-right: 1rem;
+}
+.profilepic
+{
+    width: 100px;
+    height: 150px;
+    float: right;
+}
+.fullname
+{
+    padding-top: 1rem;
+
+}
+.firstname , .lastname
+{
+    font-size: 30px;
+}

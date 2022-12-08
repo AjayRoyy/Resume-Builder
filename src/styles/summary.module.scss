@@ -1,0 +1,33 @@
+@import "./mixin";
+@import "./variables";
+.main
+{
+    width: 100%;
+    @include flexcenter;
+    margin: 1rem 0px;
+    
+    .container
+    {
+        width: 90%;
+       display: grid;
+        gap: 20px;
+
+        h1
+        {
+            font-size: 20px;
+        }
+
+        p
+        {
+            font-size: 13px;
+            color: grey;
+        }
+    }
+}
+
+.textarea
+{
+    background-color: $inputbackgrund;
+    outline: none;
+    border: none;
+}

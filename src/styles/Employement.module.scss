@@ -1,0 +1,56 @@
+@import "./fonts";
+@import "./mixin";
+@import "./variables";
+
+.main
+{
+    width: 100%;
+    @include flexcenter;
+    margin: 2rem 0px;
+
+    .container
+    {
+        width: 90%;
+        display: grid;
+        gap: 20px;
+
+        h1
+        {
+            font-size: 20px;
+        }
+
+        p
+        {
+            font-size: 13px;
+            color: grey;
+        }
+    }
+
+}
+
+.accord
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.inputt
+{
+    height: 50px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: $inputbackgrund;
+}
+
+.innercontent
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+
+}
+.datepicker
+{
+    display: flex;
+}

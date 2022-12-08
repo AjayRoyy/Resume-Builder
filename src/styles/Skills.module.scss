@@ -1,0 +1,65 @@
+@import "./mixin";
+@import "./variables";
+
+.main
+{
+    width: 100%;
+    @include flexcenter;
+
+    .container
+    {
+        width: 90%;
+        display: grid;
+        gap: 20px;
+
+        h1
+        {
+            font-size: 20px;
+        }
+
+        p
+        {
+            font-size: 13px;
+            color: grey;
+        }
+
+        div
+        {
+            label
+            {
+                display: grid;
+                gap: 20px;
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+.btndiv
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+
+.innercontent
+{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap : 20px;
+}
+
+.accord
+{
+    margin: 1rem 0px;
+}
+
+.inputt
+{
+    height: 50px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    background-color: $inputbackgrund;
+}
+    
